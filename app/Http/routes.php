@@ -15,7 +15,7 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 Route::resource('article', 'ArticleController');
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function()
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin','middleware' => ['admin']], function()
 {
 	Route::get('/', 'AdminHomeController@index');
 	Route::resource('/article', 'AdminArticleController');// 注册一个指向articles控制器的资源路由：

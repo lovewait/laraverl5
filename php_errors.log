@@ -1,0 +1,87 @@
+[25-Mar-2016 08:41:31 UTC] PHP Fatal error:  Class 'AddIsAdminToUser' not found in D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php on line 301
+[25-Mar-2016 08:41:31 UTC] PHP Stack trace:
+[25-Mar-2016 08:41:31 UTC] PHP   1. {main}() D:\WWW\laravel\artisan:0
+[25-Mar-2016 08:41:31 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() D:\WWW\laravel\artisan:36
+[25-Mar-2016 08:41:31 UTC] PHP   3. Symfony\Component\Console\Application->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:90
+[25-Mar-2016 08:41:31 UTC] PHP   4. Symfony\Component\Console\Application->doRun() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:126
+[25-Mar-2016 08:41:31 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:195
+[25-Mar-2016 08:41:31 UTC] PHP   6. Illuminate\Console\Command->run() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:874
+[25-Mar-2016 08:41:31 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:101
+[25-Mar-2016 08:41:31 UTC] PHP   8. Illuminate\Console\Command->execute() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php:253
+[25-Mar-2016 08:41:31 UTC] PHP   9. Illuminate\Container\Container->call() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:115
+[25-Mar-2016 08:41:31 UTC] PHP  10. call_user_func_array:{D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523}() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:41:31 UTC] PHP  11. Illuminate\Database\Console\Migrations\RollbackCommand->fire() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:41:31 UTC] PHP  12. Illuminate\Database\Migrations\Migrator->rollback() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\RollbackCommand.php:59
+[25-Mar-2016 08:41:31 UTC] PHP  13. Illuminate\Database\Migrations\Migrator->runDown() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:172
+[25-Mar-2016 08:41:31 UTC] PHP  14. Illuminate\Database\Migrations\Migrator->resolve() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:192
+[25-Mar-2016 08:44:01 UTC] PHP Fatal error:  Class 'AddIsAdminToUser' not found in D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php on line 301
+[25-Mar-2016 08:44:01 UTC] PHP Stack trace:
+[25-Mar-2016 08:44:01 UTC] PHP   1. {main}() D:\WWW\laravel\artisan:0
+[25-Mar-2016 08:44:01 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() D:\WWW\laravel\artisan:36
+[25-Mar-2016 08:44:01 UTC] PHP   3. Symfony\Component\Console\Application->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:90
+[25-Mar-2016 08:44:01 UTC] PHP   4. Symfony\Component\Console\Application->doRun() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:126
+[25-Mar-2016 08:44:01 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:195
+[25-Mar-2016 08:44:01 UTC] PHP   6. Illuminate\Console\Command->run() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:874
+[25-Mar-2016 08:44:01 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:101
+[25-Mar-2016 08:44:01 UTC] PHP   8. Illuminate\Console\Command->execute() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php:253
+[25-Mar-2016 08:44:01 UTC] PHP   9. Illuminate\Container\Container->call() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:115
+[25-Mar-2016 08:44:01 UTC] PHP  10. call_user_func_array:{D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523}() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:44:01 UTC] PHP  11. Illuminate\Database\Console\Migrations\RollbackCommand->fire() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:44:01 UTC] PHP  12. Illuminate\Database\Migrations\Migrator->rollback() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\RollbackCommand.php:59
+[25-Mar-2016 08:44:01 UTC] PHP  13. Illuminate\Database\Migrations\Migrator->runDown() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:172
+[25-Mar-2016 08:44:01 UTC] PHP  14. Illuminate\Database\Migrations\Migrator->resolve() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:192
+[25-Mar-2016 08:44:50 UTC] PHP Fatal error:  Class 'AddIsAdminToUser' not found in D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php on line 301
+[25-Mar-2016 08:44:50 UTC] PHP Stack trace:
+[25-Mar-2016 08:44:50 UTC] PHP   1. {main}() D:\WWW\laravel\artisan:0
+[25-Mar-2016 08:44:50 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() D:\WWW\laravel\artisan:36
+[25-Mar-2016 08:44:50 UTC] PHP   3. Symfony\Component\Console\Application->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:90
+[25-Mar-2016 08:44:50 UTC] PHP   4. Symfony\Component\Console\Application->doRun() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:126
+[25-Mar-2016 08:44:50 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:195
+[25-Mar-2016 08:44:50 UTC] PHP   6. Illuminate\Console\Command->run() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:874
+[25-Mar-2016 08:44:50 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:101
+[25-Mar-2016 08:44:50 UTC] PHP   8. Illuminate\Console\Command->execute() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php:253
+[25-Mar-2016 08:44:50 UTC] PHP   9. Illuminate\Container\Container->call() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:115
+[25-Mar-2016 08:44:50 UTC] PHP  10. call_user_func_array:{D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523}() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:44:50 UTC] PHP  11. Illuminate\Database\Console\Migrations\ResetCommand->fire() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:44:50 UTC] PHP  12. Illuminate\Database\Migrations\Migrator->rollback() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\ResetCommand.php:61
+[25-Mar-2016 08:44:50 UTC] PHP  13. Illuminate\Database\Migrations\Migrator->runDown() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:172
+[25-Mar-2016 08:44:50 UTC] PHP  14. Illuminate\Database\Migrations\Migrator->resolve() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:192
+[25-Mar-2016 08:45:36 UTC] PHP Fatal error:  Class 'AddIsAdminToUser' not found in D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php on line 301
+[25-Mar-2016 08:45:36 UTC] PHP Stack trace:
+[25-Mar-2016 08:45:36 UTC] PHP   1. {main}() D:\WWW\laravel\artisan:0
+[25-Mar-2016 08:45:36 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() D:\WWW\laravel\artisan:36
+[25-Mar-2016 08:45:36 UTC] PHP   3. Symfony\Component\Console\Application->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:90
+[25-Mar-2016 08:45:36 UTC] PHP   4. Symfony\Component\Console\Application->doRun() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:126
+[25-Mar-2016 08:45:36 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:195
+[25-Mar-2016 08:45:36 UTC] PHP   6. Illuminate\Console\Command->run() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:874
+[25-Mar-2016 08:45:36 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:101
+[25-Mar-2016 08:45:36 UTC] PHP   8. Illuminate\Console\Command->execute() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php:253
+[25-Mar-2016 08:45:36 UTC] PHP   9. Illuminate\Container\Container->call() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:115
+[25-Mar-2016 08:45:36 UTC] PHP  10. call_user_func_array:{D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523}() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:45:36 UTC] PHP  11. Illuminate\Database\Console\Migrations\ResetCommand->fire() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:45:36 UTC] PHP  12. Illuminate\Database\Migrations\Migrator->rollback() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\ResetCommand.php:61
+[25-Mar-2016 08:45:36 UTC] PHP  13. Illuminate\Database\Migrations\Migrator->runDown() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:172
+[25-Mar-2016 08:45:36 UTC] PHP  14. Illuminate\Database\Migrations\Migrator->resolve() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:192
+[25-Mar-2016 08:47:59 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Schema\Blueprint::tinyint() in D:\WWW\laravel\database\migrations\2016_03_25_083635_add_is_admin_to_user.php on line 16
+[25-Mar-2016 08:47:59 UTC] PHP Stack trace:
+[25-Mar-2016 08:47:59 UTC] PHP   1. {main}() D:\WWW\laravel\artisan:0
+[25-Mar-2016 08:47:59 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() D:\WWW\laravel\artisan:36
+[25-Mar-2016 08:47:59 UTC] PHP   3. Symfony\Component\Console\Application->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php:90
+[25-Mar-2016 08:47:59 UTC] PHP   4. Symfony\Component\Console\Application->doRun() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:126
+[25-Mar-2016 08:47:59 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:195
+[25-Mar-2016 08:47:59 UTC] PHP   6. Illuminate\Console\Command->run() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Application.php:874
+[25-Mar-2016 08:47:59 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:101
+[25-Mar-2016 08:47:59 UTC] PHP   8. Illuminate\Console\Command->execute() D:\WWW\laravel\vendor\symfony\console\Symfony\Component\Console\Command\Command.php:253
+[25-Mar-2016 08:47:59 UTC] PHP   9. Illuminate\Container\Container->call() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Console\Command.php:115
+[25-Mar-2016 08:47:59 UTC] PHP  10. call_user_func_array:{D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523}() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:47:59 UTC] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Container\Container.php:523
+[25-Mar-2016 08:47:59 UTC] PHP  12. Illuminate\Database\Migrations\Migrator->run() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Console\Migrations\MigrateCommand.php:73
+[25-Mar-2016 08:47:59 UTC] PHP  13. Illuminate\Database\Migrations\Migrator->runMigrationList() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:82
+[25-Mar-2016 08:47:59 UTC] PHP  14. Illuminate\Database\Migrations\Migrator->runUp() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:111
+[25-Mar-2016 08:47:59 UTC] PHP  15. AddIsAdminToUser->up() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php:135
+[25-Mar-2016 08:47:59 UTC] PHP  16. Illuminate\Support\Facades\Schema::table() D:\WWW\laravel\database\migrations\2016_03_25_083635_add_is_admin_to_user.php:17
+[25-Mar-2016 08:47:59 UTC] PHP  17. Illuminate\Support\Facades\Facade::__callStatic() D:\WWW\laravel\database\migrations\2016_03_25_083635_add_is_admin_to_user.php:17
+[25-Mar-2016 08:47:59 UTC] PHP  18. Illuminate\Database\Schema\Builder->table() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:213
+[25-Mar-2016 08:47:59 UTC] PHP  19. Illuminate\Database\Schema\Builder->createBlueprint() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php:94
+[25-Mar-2016 08:47:59 UTC] PHP  20. Illuminate\Database\Schema\Blueprint->__construct() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php:186
+[25-Mar-2016 08:47:59 UTC] PHP  21. AddIsAdminToUser->{closure:D:\WWW\laravel\database\migrations\2016_03_25_083635_add_is_admin_to_user.php:15-17}() D:\WWW\laravel\vendor\laravel\framework\src\Illuminate\Database\Schema\Blueprint.php:49
