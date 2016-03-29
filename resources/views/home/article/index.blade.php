@@ -18,7 +18,6 @@
                         <th>内容</th>
                         <th>作者</th>
                         <th>显示时间</th>
-
                     </tr>
                     </thead>
                     <tbody>
@@ -26,9 +25,8 @@
                     <tr>
                         <td><a href="{{ URL('/article/'.$article->article_id) }}">{{$article->title}}</a></td>
                         <td>{{$article->content}}</td>
-                        <td>{{$article->user_id}}</td>
+                        <td><a href="{{URL('/user/'.$article->blongsToUser->id)}}">{{$article->blongsToUser->name}}</a></td>
                         <td>{{date('Y-m-d',$article->display_time)}}</td>
-
                     </tr>
                     @endforeach
                     </tbody>

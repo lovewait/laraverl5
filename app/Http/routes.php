@@ -14,7 +14,9 @@
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
+Route::get('article/user/{id}','ArticleController@index@2');
 Route::resource('article', 'ArticleController');
+Route::resource('user', 'UserController');
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin','middleware' => ['admin']], function()
 {
 	Route::get('/', 'AdminHomeController@index');

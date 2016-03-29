@@ -3,7 +3,6 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Article;
-use Redirect, Input ,Auth;
 
 use Illuminate\Http\Request;
 
@@ -14,9 +13,13 @@ class ArticleController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index($user_id=0)
 	{
-		$articles = Article::orderBy('article_id','desc')->paginate(10);
+		if($user_id > 0){
+			$articles = Article::where('user_id',$user_id)->orderBy('article_id','desc')->paginate(10);
+		}else{
+			$articles = Article::orderBy('article_id','desc')->paginate(10);
+		}
 		return view('home/article/index')->withArticles($articles);
 	}
 
