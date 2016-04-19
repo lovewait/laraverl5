@@ -1,7 +1,9 @@
 <?php namespace App\Http\Middleware;
 
+use App\Events\PodcastWasPurchased;
 use Closure;
 use App\User;
+use Auth;
 
 class AdminAuthenticate {
 	protected $user;
@@ -25,10 +27,10 @@ class AdminAuthenticate {
 	 */
 	public function handle($request, Closure $next)
 	{
-		if(!$this->user || !$this->user->id){
+		if(!$this->user || !$this->user){
 			return redirect()->guest('auth/login');
 		}
-		if(!$this->user->admin_id){
+		if(!$this->user){
 			return redirect()->back()->withErrors('您不是管理员，不能访问后台');
 		}
 		return $next($request);

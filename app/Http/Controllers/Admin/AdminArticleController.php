@@ -16,6 +16,7 @@ class AdminArticleController extends Controller {
 	 */
 	public function index()
 	{
+		\Event::fire(new \App\Events\PodcastWasPurchased());
 		$articles = Article::orderBy('article_id','desc')->paginate(10);
 		return view('admin/article/index')->withArticles($articles);
 	}

@@ -14,6 +14,9 @@ class EventServiceProvider extends ServiceProvider {
 		'event.name' => [
 			'EventListener',
 		],
+		'App\Events\PodcastWasPurchased' => [
+			'App\Handlers\Events\EmailPurchaseConfirmation',
+		],
 	];
 
 	/**
@@ -25,7 +28,6 @@ class EventServiceProvider extends ServiceProvider {
 	public function boot(DispatcherContract $events)
 	{
 		parent::boot($events);
-
 		//
 	}
 
